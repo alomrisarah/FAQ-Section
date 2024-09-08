@@ -20,24 +20,20 @@ body {
 
 .icon {
     color: white;
-    position: relative;
     background-color: #8052ec;
     width: 20px;
-    border-radius: 50px;
+    height: 20px;
+    border-radius: 5px;
     border: none;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
     text-align: center;
-    margin-bottom: 1rem;
+    padding: 0.15rem;
 }
 
 .icon:active {
     background-color: black;
 }
-
-
 
 .faq-container {
     background-color: white;
@@ -76,7 +72,7 @@ h2 {
 }
 
 .answer {
-    max-height:0px;
+    max-height: 0px;
     overflow: hidden;
     transition: max-height 0.3s ease;
     padding: 0 1rem;
@@ -88,14 +84,8 @@ h2 {
     padding: 1rem 0;
 }
 
-.question .icon {
-    font-size: 1.2rem;
-    transition: transform 0.3s ease;
-}
 
-.answer.active .icon {
-    transform: rotate(45deg);
-}
+
 
 .answer {
     max-height: 0;
